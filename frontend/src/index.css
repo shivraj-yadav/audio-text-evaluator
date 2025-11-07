@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App-specific tweaks */
+:root {
+  color-scheme: light dark;
+}
+
+.container {
+  @apply max-w-5xl mx-auto px-4;
+}
+
+.header-gradient {
+  background: radial-gradient(1200px 400px at 0% 0%, #1d4ed8 0%, transparent 60%),
+              radial-gradient(1000px 300px at 100% 0%, #0ea5e9 0%, transparent 60%),
+              linear-gradient(180deg, #0b1220 0%, #0b1220 100%);
+}
